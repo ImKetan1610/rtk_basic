@@ -1,9 +1,10 @@
 // NavBar.js
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  console.log(isOpen);
 
   return (
     <Nav>
@@ -75,7 +76,8 @@ const Menu = styled.div`
   @media (max-width: 768px) {
     overflow: hidden;
     flex-direction: column;
-    max-height: ${({ isOpen }) => (isOpen ? '400px' : '0')}; /* Increased max-height */
+    max-height: ${({ isOpen }) =>
+      isOpen ? "400px" : "0"}; /* Increased max-height */
     transition: max-height 0.3s ease-in-out;
     width: 100%;
     background-color: #6a0dad; /* Dark Purple */
