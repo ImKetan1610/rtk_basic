@@ -9,7 +9,7 @@ const DeleteAllUsers = () => {
   };
   return (
     <div>
-      <button onClick={() => clearUsers()}>Clear All Data</button>
+      <button className="delete-section" onClick={() => clearUsers()}>Clear All Data</button>
     </div>
   );
 };

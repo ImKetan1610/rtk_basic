@@ -102,13 +102,16 @@ hr {
 
 /* Styling for the delete section (for DeleteAllUsers component) */
 .delete-section {
+  background-color: #880808;
   margin-top: 20px;
   font-size: 1rem;
-  color: #f50057; /* Magenta for delete actions */
+  color: #F88379; /* Magenta for delete actions */
   cursor: pointer;
   transition: color 0.3s ease;
+  text-transform: uppercase;
 }
 
 .delete-section:hover {
-  color: #d50000; /* Darker red on hover */
+  color: white; /* Darker red on hover */
+  background-color: #EE4B2B;
 }
