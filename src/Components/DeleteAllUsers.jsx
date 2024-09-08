@@ -4,7 +4,9 @@ import { clearAllUsers } from "../store/slices/UserSlice";
 
 const DeleteAllUsers = () => {
   const dispatch = useDispatch();
-  const clearUsers = (payload) => {};
+  const clearUsers = (payload) => {
+    dispatch(clearAllUsers())
+  };
   return (
     <div>
       <button onClick={() => clearUsers()}>Clear All Data</button>

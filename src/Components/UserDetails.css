@@ -65,14 +65,33 @@ ul.admin-table1 {
 }
 
 ul.admin-table1 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   background-color: #f3e5f5; /* Light Violet */
-  margin: 10px 0;
+  margin: 10px;
   border-radius: 4px;
   color: #333;
   font-size: 1.2rem;
   border: 1px solid #9c27b0; /* Violet border */
   list-style-type: none;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.delete-icon {
+  background-color: #d50000;
+}
+
+.delete-icon:hover {
+  background-color: #f50057;
 }
 
 /* Horizontal rule */
