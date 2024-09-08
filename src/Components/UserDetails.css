@@ -1,0 +1,95 @@
+/* Container for the content */
+.content {
+  /* margin-top: 90px;  */
+  /* Pushes content below the fixed navbar */
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Admin table styling */
+.admin-table {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-table1 {
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtitle for the admin section */
+.admin-subtitle {
+  font-size: 1.8rem;
+  color: #6a0dad; /* Dark Purple */
+  font-weight: 600;
+  /* margin-bottom: 15px; */
+}
+
+/* Button styling */
+button {
+  background-color: #9c27b0; /* Violet */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* margin-bottom: 20px; */
+}
+
+button:hover {
+  background-color: #6a0dad; /* Dark Purple on hover */
+}
+
+/* List styling for user details */
+ul.admin-table1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.admin-table1 li {
+  padding: 10px;
+  background-color: #f3e5f5; /* Light Violet */
+  margin: 10px 0;
+  border-radius: 4px;
+  color: #333;
+  font-size: 1.2rem;
+  border: 1px solid #9c27b0; /* Violet border */
+  list-style-type: none;
+}
+
+/* Horizontal rule */
+hr {
+  border: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+/* Styling for the delete section (for DeleteAllUsers component) */
+.delete-section {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #f50057; /* Magenta for delete actions */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.delete-section:hover {
+  color: #d50000; /* Darker red on hover */
+}
